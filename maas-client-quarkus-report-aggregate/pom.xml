@@ -9,6 +9,12 @@
         <version>8.0.0-SNAPSHOT</version>
     </parent>
 
+    <properties>
+        <sonar.coverage.jacoco.xmlReportPaths>
+            ${project.basedir}/target/site/jacoco-aggregate/jacoco.xml
+        </sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
     <artifactId>maas-client-quarkus-report-aggregate</artifactId>
 
     <dependencies>

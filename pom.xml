@@ -50,7 +50,7 @@
 		<jandex-maven-plugin.version>3.1.8</jandex-maven-plugin.version>
 
 		<sonar.coverage.jacoco.xmlReportPaths>
-			${project.basedir}/../maas-kafka-quarkus-client-report-aggregate/target/site/jacoco-aggregate/jacoco.xml
+			${project.basedir}/../../maas-client-quarkus-report-aggregate/target/site/jacoco-aggregate/jacoco.xml
 		</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 
